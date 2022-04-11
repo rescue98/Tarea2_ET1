@@ -1,0 +1,321 @@
+body{
+	background-color: #f6f5f5;
+	margin: 0px;
+	padding: 0px;
+
+}
+
+ul{
+	list-style: none;
+
+}
+
+a{
+	text-decoration: none;
+
+}
+
+section{
+
+	width: 100%;
+	height: 95vh;
+	background-image: url("C:/Users/Constanza Moya/Downloads/Tarea2_ET1/abst.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+
+
+}
+
+nav{
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 60px;
+	background-color: #FFFFFF;
+	box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+	padding: 0px 5%;
+
+}
+
+nav ul{
+	display: flex;
+}
+
+nav ul li a{
+	margin: 30px;
+	font-family: 'myriad pro regular';
+	color: #505050;
+	font-size: 15px;
+	font-weight: 700;
+
+}
+
+.logo{
+	font-family: RoadTest;
+	color: #000000;
+	font-size: 22px;
+}
+
+.active{
+	font-weight: bold;
+	color: #2a2a2a;
+
+}
+
+.text-container p:nth-child(1){
+	font-family: 'Calibri';
+	font-weight: bold;
+	color: #6d6d6d;
+	font-size: 22px;
+
+}
+
+.text-container p:nth-child(2){
+	font-family: 'Calibri';
+	font-weight: bold;
+	letter-spacing: 1px;
+	color: #1a1a1a;
+	font-size: 60p;
+}
+
+.text-container p:nth-child(3){
+	font-family: 'Calibri';
+	color: #403e3e;
+	font-size: 30px;
+}
+
+.text-container p{
+	line-height: 0px;
+	margin: 45px 0px 25px;
+}
+
+.text-container {
+	position: absolute;
+	left: 13%;
+	top: 42%;
+	transform: translate(-13%,-42%);
+
+
+}
+
+.text-container button{
+	width: 130px;
+	height: 42px;
+	border-radius: 10px;
+	font-family: 'Calibri';
+	font-weight: bold;
+	font-size: 14px;
+	outline: none;
+	margin: 0px 10px;
+
+}
+
+.contratar{
+	border:2px solid #373636;
+	color: #373636;
+
+
+}
+
+.cv{
+	background-color: #0b0b0b;
+	color: #FFFFFF;
+	border:none;
+}
+
+button:active{
+	transform: scale(1.1);
+}
+
+
+.perfil{
+	height: 560px;
+	position: absolute;
+	bottom: 0px;
+	left: 70%;
+	transform: translateX(-70%);
+}
+
+
+.sobre-container{
+	width:800px;
+	|height: 30px;
+	text-align: 20px;
+	background-color: #FFFFFF;
+	border-radius: 20px;
+	box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+	display: flex;
+	margin: -7% auto 20px auto;
+	position: relative;
+	align-items: center;
+
+}
+
+
+.sobre-text{
+	width: 550px;
+}
+
+.sobre-text p:nth-child(1){
+	color: #403e3e;
+	font-family: 'Calibri';
+	font-weight: bold;
+	font-size: 23px;
+	line-height: 0px;
+}
+
+.sobre-text p:nth-child(2){
+	color: #3e3d3d;
+	font-size: 13px;
+	font-family: 'Calibri';
+	font-weight: bold;
+	line-height: 5px;
+
+
+}
+
+.sobre-text p:nth-child(3)
+.sobre-text p:nth-child(4){
+
+	color: #7e7d7d;
+	font-family: 'Calibri';
+	font-size: 16px;
+
+
+}
+
+.sobre-text button{
+	width:120px;
+	height: 40px;
+	color: #FFFFFF;
+	outline: none;
+	border:none;
+	font-family: 'Calibri';
+	background-color: #262525;
+
+
+}
+
+
+.portafolio{
+
+	height: 600px;
+
+	background-color: #FFFFFF;
+	padding: 2% 10% 0px 10%;
+}
+
+.portafolio-text p:nth-child(1){
+
+
+
+	font-family: 'Calibri';
+	font-weight: bold;
+	color: #3e3d3d;
+	font-size: 30px;
+	line-height: 0px;
+}
+
+.portafolio-text p:nth-child(2){
+
+	font-family: 'Calibri';
+	font-weight: bold;
+	color: #3e3e3d;
+	font-size: 15px;
+	line-height: 5px;
+
+
+
+}
+
+.portafolio-text p:nth-child(3){
+
+	font-family: 'Calibri';
+	color: #7e7d7d;
+
+}
+
+.portafolio{
+	width: 500px;
+	margin: 50px 0px;
+
+
+}
+
+.box-1,.box-2,.box-3{
+
+	width: 300px;
+	height: 300px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-left: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+
+
+}
+.box-container{
+	display: flex;
+	justify-content: space-between;
+
+
+}
+.box-1{
+	background-image: url("C:/Users/Constanza Moya/Downloads/Tarea2_ET1/servicio1.jpg");
+
+}
+
+.box-2{
+	background-image: url("C:/Users/Constanza Moya/Downloads/Tarea2_ET1/servicio2.jpg");
+
+}
+.box-3{
+	background-image: url("C:/Users/Constanza Moya/Downloads/Tarea2_ET1/servicio3.jpg");
+}
+
+.box-1 span, .box-2 span, .box-3 span{
+
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background-color: #FFFFFF;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Calibri';
+	font-weight: bold;
+
+}
+
+.box-1 p:nth-child(2), .box-2 p:nth-child(2), .box-3 p:nth-child(2){
+
+	color: #FFFFFF;
+	font-family: 'Calibri';
+	font-size: 23px;
+	line-height: 0px;
+	wid
+}
+
+.box-1 p:nth-child(3), .box-2 p:nth-child(3), .box-3 p:nth-child(3){
+
+	font-family: 'Calibri';
+	text-align: center;
+	margin: 0px 0px 20px 0px;
+	color: #FFFFFF;
+}
+
+.box-1 button, .box-2 button, .box-3 button{
+
+	width: 100px;
+	height: 30px;
+	
+	border: none;
+	outline: none;
+	border-radius: 5px;
+
+
+}
